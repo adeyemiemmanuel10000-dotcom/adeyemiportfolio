@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adeyemi Emmanuel Ayomide | Product Designer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Emmanuel<span>.</span></div>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-text">
+      <p class="greeting">Hello, I'm</p>
+      <h1>Adeyemi Emmanuel Ayomide</h1>
+      <h2>Product Designer</h2>
+      <p class="summary">
+        I design digital products that people trust and love — clean, functional interfaces
+        built to convert, not just look good. My focus is on products people actually enjoy
+        using, from first click to shipped feature.
+      </p>
+      <a href="#contact" class="btn">Get In Touch</a>
+    </div>
+    <div class="hero-image">
+      <img src="images/main.png" alt="Adeyemi Emmanuel Ayomide">
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience" id="experience">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Product Designer &amp; Brand Strategist — Alix</h3>
+        <span>Remote · Contract, 2 Months</span>
+      </div>
+      <ul>
+        <li>Led end-to-end product design for Alix, a premium marketplace connecting users with vetted home and lifestyle service professionals, shaping booking, worker assignment, job tracking, and payment flows.</li>
+        <li>Designed a PIN-based job verification system and monitored in-app chat to remove risk and friction between customers and workers, making trust a core product feature.</li>
+        <li>Developed the brand's visual identity across customer, worker, and internal admin interfaces.</li>
+        <li>Partnered directly with stakeholders to define product direction and prioritize features that improved platform trust.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>User Interface Designer — BeeTcore</h3>
+        <span>Hybrid · Nov 2024 – Dec 2025</span>
+      </div>
+      <ul>
+        <li>Designed clean, functional user interfaces for web products, solving usability problems while elevating visual quality.</li>
+        <li>Translated product requirements into polished, conversion-focused UI designs alongside product and engineering teams.</li>
+        <li>Built and maintained reusable design components to keep the product visually consistent and speed up developer handoff.</li>
+        <li>Ran UI audits and iterated designs based on user feedback and usability testing.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Technical</h3>
+        <p>UI Design · Web Design · Funnel Design · UI/UX Prototyping · Wireframing · Framer Development · Case Study Design · UX Design and Thinking</p>
+      </div>
+      <div class="skill-card">
+        <h3>Tools</h3>
+        <p>Figma · FigJam · Framer · Notion · Canva · Maze</p>
+      </div>
+      <div class="skill-card">
+        <h3>Soft Skills</h3>
+        <p>Communication · Collaboration · Attention to Detail · Flexibility · Creative Thinking · Problem Solving</p>
+      </div>
+      <div class="skill-card">
+        <h3>Education</h3>
+        <p>B.Sc. Computer Science<br>Bamidele Olumilua University of Education, Science and Technology (BOUESTI)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery-grid">
+      <img src="images/main.png" alt="Photo 1" onclick="openLightbox(this)">
+      <img src="images/photo2.jpg" alt="Photo 2" onclick="openLightbox(this)">
+      <img src="images/photo3.jpg" alt="Photo 3" onclick="openLightbox(this)">
+      <img src="images/photo4.jpg" alt="Photo 4" onclick="openLightbox(this)">
+      <img src="images/photo5.jpg" alt="Photo 5" onclick="openLightbox(this)">
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox">
+    <span id="lightbox-close" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img" src="" alt="Enlarged photo">
+  </div>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <p>Email: <a href="mailto:adeyemiemmanuel10000@gmail.com">adeyemiemmanuel10000@gmail.com</a></p>
+    <p>Phone: 070 4186 4596</p>
+    <p>Portfolio: <a href="https://portfolio.adeyemiemmanuel.link" target="_blank">portfolio.adeyemiemmanuel.link</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Adeyemi Emmanuel Ayomide. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
